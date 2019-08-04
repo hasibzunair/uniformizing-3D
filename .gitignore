@@ -1,0 +1,18 @@
+# Folders
+.ipynb_checkpoints/
+__pycache__/
+
+dataset/
+datasets/
+exp/
+weights/
+test_imgs/
+results/
+
+# File types
+*.h5
+*.pickle
+*.jpg
+*.png
+*.jpeg
+*.csv
