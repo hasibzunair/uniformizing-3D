@@ -8,6 +8,9 @@ exp/
 weights/
 test_imgs/
 results/
+img_datas_1/
+test_images/
+
 
 # File types
 *.h5
