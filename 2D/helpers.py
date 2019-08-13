@@ -22,7 +22,6 @@ def sort_paths(paths):
     paths.sort(key = get_number)
     return paths
 
-
 MIN_BOUND = -1000 # anything below this we are not interested in 
 MAX_BOUND = 700   # anything above too
 
