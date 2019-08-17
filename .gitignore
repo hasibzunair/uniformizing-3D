@@ -4,6 +4,7 @@ __pycache__/
 
 dataset/
 datasets/
+models/
 exp/
 weights/
 test_imgs/
