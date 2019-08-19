@@ -22,19 +22,43 @@ def sort_paths(paths):
     paths.sort(key = get_number)
     return paths
 
-MIN_BOUND = -1000 # anything below this we are not interested in 
-MAX_BOUND = 700   # anything above too
+#MIN_BOUND = -1000 # anything below this we are not interested in 
+#MAX_BOUND = 700   # anything above too
 
 def normalize(image):
     '''
     Our values currently range from -3000 to around 2400. Anything above 400 is not interesting to us, as these are simply bones with different radiodensity. Refer to histogram plot
     '''
+    
+    MIN_BOUND = min(image.flatten())
+    MAX_BOUND = max(image.flatten())
+    
     image = (image - MIN_BOUND) / (MAX_BOUND - MIN_BOUND)
     image[image>1] = 1.
     image[image<0] = 0.
     return image
     
-    
+
+def center_crop(data, shape):
+    """
+    Apply a center crop to the input real image or batch of real images.
+    Args:
+        data (torch.Tensor): The input tensor to be center cropped. It should have at
+            least 2 dimensions and the cropping is applied along the last two dimensions.
+        shape (int, int): The output shape. The shape should be smaller than the
+            corresponding dimensions of data.
+    Returns:
+        torch.Tensor: The center cropped image
+    """
+    assert 0 < shape[0] <= data.shape[-2]
+    assert 0 < shape[1] <= data.shape[-1]
+    w_from = (data.shape[-2] - shape[0]) // 2
+    h_from = (data.shape[-1] - shape[1]) // 2
+    w_to = w_from + shape[0]
+    h_to = h_from + shape[1]
+    return data[..., w_from:w_to, h_from:h_to]
+
+
 PIXEL_MEAN = 0.25
 
 def zero_center(image):
