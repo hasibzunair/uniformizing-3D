@@ -22,6 +22,23 @@ def sort_paths(paths):
     paths.sort(key = get_number)
     return paths
 
+
+def threshold_and_normalize_scan (scan):
+    scan = scan.astype(np.float32)
+    scan [scan < THRESHOLD_LOW] = -1100
+    scan [scan > THRESHOLD_HIGH] = 700
+    
+    # Maximum absolute value of any pixel .
+    max_abs = abs (max(THRESHOLD_LOW, THRESHOLD_HIGH, key=abs))
+    
+    # This will bring values between -1 and 1
+    scan /= max_abs
+    
+    return scan
+
+
+
+
 #MIN_BOUND = -1000 # anything below this we are not interested in 
 #MAX_BOUND = 700   # anything above too
 
