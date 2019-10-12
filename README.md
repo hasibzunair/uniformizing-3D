@@ -18,7 +18,7 @@ Tested code using:
 
 ### Directory Structure & Usage
 * `main`: Contains codes to final submission
-* `utils`: Contains helper codes to preprocess and visualize samples in dataset.
+* `others`: Contains helper codes to preprocess and visualize samples in dataset.
 
 ### This work is an extension of previous work
 
