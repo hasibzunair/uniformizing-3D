@@ -17,7 +17,7 @@ Tested code using:
 *    Python 3.6
 
 ### Directory Structure & Usage
-* `main`: Contains codes to final submission
+* `main`: Contains codes to replicate experiments
 * `others`: Contains helper codes to preprocess and visualize samples in dataset.
 
 ### This work is an extension of previous work
