@@ -1,8 +1,10 @@
-### Codebase for TITLE submitted to ECIR 2020.
+### Tuberculosis severity estimation
 
-This work is evaluated on CLEF evaluation: ImageCLEF 2019 Tuberculosis - Severity scoring challenge.
+Code for paper titled *Tuberculosis Severity Estimation from
+Volumetric CT scans using Uniformizing Techniques and 3D Convolutional Networks*.
 
-This repository contains the codes and scripts used in the paper titled: "ADD TITLE". The challenge was dedicated to the analysis of 3D Computed Tomography (CT) image data of tuberculosis (TB) patients.
+
+This work is evaluated on CLEF evaluation: ImageCLEF 2019 Tuberculosis - Severity scoring challenge.The challenge was dedicated to the analysis of 3D Computed Tomography (CT) image data of tuberculosis (TB) patients.
 
 ### Usage
 
@@ -33,3 +35,4 @@ Lugano, Switzerland, CEUR-WS.org
 ```
 Previous paper published in CEUR-WS. Paper can be found at [CLEF Working Notes 2019](http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2019/) under the section ImageCLEF - Multimedia Retrieval in CLEF.
 
+More details coming soon...
