@@ -19,6 +19,5 @@ test_images/
 *.h5
 *.pickle
 *.jpg
-*.png
 *.jpeg
 *.csv

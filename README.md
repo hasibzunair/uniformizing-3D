@@ -28,7 +28,7 @@ Our approach attains 5-th position overall.
 
 
 <p align="center">
-  <a href="#"><img src="asset/results.png"></a>
+  <a href="#"><img src="asset/result.png"></a>
 </p>
 
 
