@@ -22,9 +22,20 @@ Tested code using:
 * `main`: Contains codes to replicate experiments
 * `others`: Contains helper codes to preprocess and visualize samples in dataset.
 
+### Post challenge submission
+
+Our approach attains 5-th position overall.
+
+
+<p align="center">
+  <a href="#"><img src="asset/results.png"></a>
+</p>
+
+
 ### This work is an extension of previous work
 
 More details at this [link](https://github.com/hasibzunair/tuberculosis-severity)
+
 
 ```
 Zunair,  H.,  Rahman,  A.,  Mohammed,  N.:   Estimating  Severity  from  CT  Scans
