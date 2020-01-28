@@ -1,14 +1,13 @@
 ### Tuberculosis severity estimation
 
-Code for paper titled *Tuberculosis Severity Estimation from
-Volumetric CT scans using Uniformizing Techniques and 3D Convolutional Networks*.
+Code for paper titled *Uniformizing Techniques to Process CT scans with 3D CNNs for Tuberculosis Severity Estimation*.
 
 
 This work is evaluated on CLEF evaluation: ImageCLEF 2019 Tuberculosis - Severity scoring challenge.The challenge was dedicated to the analysis of 3D Computed Tomography (CT) image data of tuberculosis (TB) patients.
 
 ### Usage
 
-This work is implemented in Python 3.6 and Keras using Tensorflow as backend.
+Implemented in Python 3.6 and Keras using Tensorflow as backend.
 
 ### Dependencies
 
@@ -22,7 +21,7 @@ Tested code using:
 * `main`: Contains codes to replicate experiments
 * `others`: Contains helper codes to preprocess and visualize samples in dataset.
 
-### Post challenge submission
+### Challenge submission
 
 Our approach attains 5-th position overall.
 
@@ -46,4 +45,4 @@ Lugano, Switzerland, CEUR-WS.org
 ```
 Previous paper published in CEUR-WS. Paper can be found at [CLEF Working Notes 2019](http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2019/) under the section ImageCLEF - Multimedia Retrieval in CLEF.
 
-More details coming soon...
+
