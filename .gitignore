@@ -5,6 +5,7 @@ __pycache__/
 
 results_text/
 dataset/
+logs/
 datasets/
 models/
 exp/
@@ -13,7 +14,6 @@ test_imgs/
 results/
 img_datas_1/
 test_images/
-
 
 # File types
 *.h5
