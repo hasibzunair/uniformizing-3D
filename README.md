@@ -17,6 +17,14 @@ Tested code using:
 *    Windows 8
 *    Python 3.6
 
+
+### Environment setup
+
+You can create the appropriate conda environment by running
+
+`conda env create -f environment.yml`
+
+
 ### Directory Structure & Usage
 * `main`: Contains codes to replicate experiments
 * `others`: Contains helper codes to preprocess and visualize samples in dataset.
