@@ -7,15 +7,9 @@ This code is part of the supplementary materials for our paper titled *Uniformiz
 
 A common approach to medical image analysis on volumetric data uses deep 2D convolutional neural networks (CNNs). This is largely attributed to the challenges imposed by the nature of the 3D data: variable volume size, GPU exhaustion during optimization. However, dealing with the individual slices independently in 2D CNNs deliberately discards the depth information which results in poor performance for the intended task. Therefore, it is important to develop methods that not only overcome the heavy memory and computation requirements but also leverage the 3D information. To this end, we evaluate a set of volume uniformizing methods to address the aforementioned issues. The first method involves sampling information evenly from a subset of the volume. Another method exploits the full geometry of the 3D volume by interpolating over the z-axis. We demonstrate performance improvements using controlled ablation studies as well as put this approach to the test on the ImageCLEF Tuberculosis Severity Assessment 2019 benchmark and report performance on the test set of 73% AUC and binary classification accuracy of 67.5% beating all methods which leveraged only image information (without using clinical meta-data) and achieve 5-th position overall, post-challenge. All codes are made available at https://github.com/hasibzunair/uniformizing-3D.
 
-
-## Data and Task
-
-Both subtasks (SVR and CTR) use the same dataset containing 335 chest CT scans of TB patients along with a set of clinically relevant metadata. 218 patients are used for training and 117 for test. For all patient, provided are 3D CT images with slice size of 512*512 pixels and number of slices varying from about 50 to 400. All the CT images are stored in NIFTI file format with .nii.gz file extension (g-zipped .nii files). The dataset is provided by ImageCLEF and not shared here due to competition rules. More information at [URL](https://www.imageclef.org/2019/medical/tuberculosis). 
-
-Here is a single CT scan displayed slice by slice.
-
 ![](asset/3D.gif)
 
+More information about the dataset and tasks are at [URL](https://www.imageclef.org/2019/medical/tuberculosis). 
 
 ### Dependencies
 
