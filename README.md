@@ -24,17 +24,9 @@ You can create the appropriate conda environment by running
 
 
 ### Directory Structure & Usage
+
 * Run notebook in order
 * `others`: Contains helper codes to preprocess and visualize samples in dataset.
-
-### ImageCLEF Tuberculosis Severity Assessment 2019 Benchmark
-
-Our approach attains 5-th position overall.
-
-
-<p align="center">
-  <a href="#"><img src="asset/result.png"></a>
-</p>
 
 
 ### This is an extension of previous work
