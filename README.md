@@ -1,4 +1,4 @@
-# Uniformizing Techniques to Process CT scanswith 3D CNNs for Tuberculosis Prediction
+# Uniformizing Techniques to Process CT scans with 3D CNNs for Tuberculosis Prediction
 
 This code is part of the supplementary materials for our paper titled *Uniformizing Techniques to Process CT scans with 3D CNNs for Tuberculosis Prediction* accepted for publication in MICCAI 2020 workshop on Predictive Intelligence in Medicine.
 
