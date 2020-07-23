@@ -6,7 +6,26 @@ Paper will be added soon after camera ready submission!
 
 ## Abstract
 
-A common approach to medical image analysis on volumetric data uses deep 2D convolutional neural networks (CNNs). This is largely attributed to the challenges imposed by the nature of the 3D data: variable volume size, GPU exhaustion during optimization. However, dealing with the individual slices independently in 2D CNNs deliberately discards the depth information which results in poor performance for the intended task. Therefore, it is important to develop methods that not only overcome the heavy memory and computation requirements but also leverage the 3D information. To this end, we evaluate a set of volume uniformizing methods to address the aforementioned issues. The first method involves sampling information evenly from a subset of the volume. Another method exploits the full geometry of the 3D volume by interpolating over the z-axis. We demonstrate performance improvements using controlled ablation studies as well as put this approach to the test on the ImageCLEF Tuberculosis Severity Assessment 2019 benchmark and report performance on the test set of 73% AUC and binary classification accuracy of 67.5% beating all methods which leveraged only image information (without using clinical meta-data) and achieve 5-th position overall, post-challenge. All codes are made available at https://github.com/hasibzunair/uniformizing-3D.
+A common approach to medical image analysis on volumet-
+ric data uses deep 2D convolutional neural networks (CNNs). This is
+largely attributed to the challenges imposed by the nature of the 3D
+data: variable volume size, GPU exhaustion during optimization. How-
+ever, dealing with the individual slices independently in 2D CNNs delib-
+erately discards the depth information which results in poor performance
+for the intended task. Therefore, it is important to develop methods that
+not only overcome the heavy memory and computation requirements but
+also leverage the 3D information. To this end, we evaluate a set of vol-
+ume uniformizing methods to address the aforementioned issues. The
+first method involves sampling information evenly from a subset of the
+volume. Another method exploits the full geometry of the 3D volume
+by interpolating over the z-axis. We demonstrate performance improve-
+ments using controlled ablation studies as well as put this approach to the
+test on the ImageCLEF Tuberculosis Severity Assessment 2019 bench-
+mark. We report 73% area under curve (AUC) and binary classification
+accuracy (ACC) of 67.5% on the test set beating all methods which lever-
+aged only image information (without using clinical meta-data) achiev-
+ing 5-th position overall. All codes and models are made available at
+https://github.com/hasibzunair/uniformizing-3D.
 
 ![](asset/3D.gif)
 
@@ -31,6 +50,12 @@ You can create the appropriate conda environment by running
 
 * Run notebook in order
 * `others`: Contains helper codes to preprocess and visualize samples in dataset.
+
+### ImageCLEF Tuberculosis Severity Assessment 2019 Benchmark
+
+<p align="left">
+<a href="#"><img src="asset/top_results.png" width="75%"></a>
+</p>
 
 
 ### This is an extension of previous work
