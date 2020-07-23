@@ -31,7 +31,23 @@ https://github.com/hasibzunair/uniformizing-3D.
 More information about the dataset and task is avaiable at [URL](https://www.imageclef.org/2019/medical/tuberculosis). 
 
 
-### ImageCLEF Tuberculosis Severity Assessment 2019 Benchmark
+### Method
+
+Data uniformizing methods
+
+<p align="left">
+<a href="#"><img src="asset/algorithm.png" width="100%"></a>
+</p>
+
+3D Convolutional Neural Network
+
+<p align="left">
+<a href="#"><img src="asset/network.png" width="100%"></a>
+</p>
+
+
+
+### Results
 
 <p align="left">
 <a href="#"><img src="asset/top_results.png" width="100%"></a>
