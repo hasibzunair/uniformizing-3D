@@ -27,14 +27,19 @@ aged only image information (without using clinical meta-data) achiev-
 ing 5-th position overall. All codes and models are made available at
 https://github.com/hasibzunair/uniformizing-3D.
 
-![](asset/3D.gif)
 
 More information about the dataset and task is avaiable at [URL](https://www.imageclef.org/2019/medical/tuberculosis). 
+
+
+### ImageCLEF Tuberculosis Severity Assessment 2019 Benchmark
+
+<p align="left">
+<a href="#"><img src="asset/top_results.png" width="100%"></a>
+</p>
 
 ### Dependencies
 
 *    Ubuntu 14.04
-*    Windows 8
 *    Python 3.6
 *    Tensorflow: 2.0.0
 *    Keras: 2.3.1
@@ -51,17 +56,10 @@ You can create the appropriate conda environment by running
 * Run notebook in order
 * `others`: Contains helper codes to preprocess and visualize samples in dataset.
 
-### ImageCLEF Tuberculosis Severity Assessment 2019 Benchmark
-
-<p align="left">
-<a href="#"><img src="asset/top_results.png" width="75%"></a>
-</p>
-
 
 ### This is an extension of previous work
 
 More details at this [link](https://github.com/hasibzunair/tuberculosis-severity)
-
 
 ```
 Zunair,  H.,  Rahman,  A.,  Mohammed,  N.:   Estimating  Severity  from  CT  Scans
