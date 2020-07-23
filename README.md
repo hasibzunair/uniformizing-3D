@@ -2,6 +2,7 @@
 
 This code is part of the supplementary materials for our paper titled *Uniformizing Techniques to Process CT scans with 3D CNNs for Tuberculosis Prediction* accepted for publication in MICCAI 2020 workshop on Predictive Intelligence in Medicine.
 
+Paper will be added soon after camera ready submission!
 
 ## Abstract
 
@@ -9,7 +10,7 @@ A common approach to medical image analysis on volumetric data uses deep 2D conv
 
 ![](asset/3D.gif)
 
-More information about the dataset and tasks are at [URL](https://www.imageclef.org/2019/medical/tuberculosis). 
+More information about the dataset and task is avaiable at [URL](https://www.imageclef.org/2019/medical/tuberculosis). 
 
 ### Dependencies
 
