@@ -1,6 +1,6 @@
 # Uniformizing Techniques to Process CT scans with 3D CNNs for Tuberculosis Prediction [[arXiv](https://arxiv.org/abs/2007.13224)]
 
-This code is part of the supplementary materials for our paper titled *Uniformizing Techniques to Process CT scans with 3D CNNs for Tuberculosis Prediction* accepted for publication in the 23rd International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) workshop on Predictive Intelligence in Medicine (PRIME).
+This code is part of the supplementary materials for our paper which is accepted for publication in the 23rd International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) workshop on Predictive Intelligence in Medicine (PRIME).
 
 Authors: Hasib Zunair, Aimon Rahman, Nabeel Mohammed, Joseph Paul Cohen
 
