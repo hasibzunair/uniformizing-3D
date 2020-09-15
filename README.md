@@ -39,7 +39,7 @@ Will be added soon.
 ```
 
 
-### Method
+### Data Processing Method
 
 Data uniformizing methods
 
@@ -47,7 +47,7 @@ Data uniformizing methods
 <a href="#"><img src="asset/algorithm.png" width="100%"></a>
 </p>
 
-3D Convolutional Neural Network
+### 3D Convolutional Neural Network
 
 <p align="left">
 <a href="#"><img src="asset/network.png" width="100%"></a>
