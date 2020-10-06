@@ -35,7 +35,14 @@ More information about the dataset and task is avaiable at [URL](https://www.ima
 ### Citation
 
 ```
-Will be added soon.
+@inproceedings{zunair2020uniformizing,
+  title={Uniformizing Techniques to Process CT Scans with 3D CNNs for Tuberculosis Prediction},
+  author={Zunair, Hasib and Rahman, Aimon and Mohammed, Nabeel and Cohen, Joseph Paul},
+  booktitle={International Workshop on PRedictive Intelligence In MEdicine},
+  pages={156--168},
+  year={2020},
+  organization={Springer}
+}
 ```
 
 
