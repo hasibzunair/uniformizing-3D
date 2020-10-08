@@ -33,6 +33,9 @@ https://github.com/hasibzunair/uniformizing-3D.
 More information about the dataset and task is avaiable at [URL](https://www.imageclef.org/2019/medical/tuberculosis). 
 
 
+### Virtual Oral Presentation
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IP6poudyny4/0.jpg)](https://www.youtube.com/watch?v=IP6poudyny4)
+
 
 ### Citation
 
