@@ -38,8 +38,9 @@ More information about the dataset and task is avaiable at [URL](https://www.ima
 
 
 ### Citation
+If you use this code or models in your scientific work, please cite the following paper:
 
-```
+```bibtex
 @inproceedings{zunair2020uniformizing,
   title={Uniformizing Techniques to Process CT Scans with 3D CNNs for Tuberculosis Prediction},
   author={Zunair, Hasib and Rahman, Aimon and Mohammed, Nabeel and Cohen, Joseph Paul},
@@ -97,7 +98,7 @@ You can create the appropriate conda environment by running
 
 More details at this [link](https://github.com/hasibzunair/tuberculosis-severity)
 
-```
+```bibtex
 Zunair,  H.,  Rahman,  A.,  Mohammed,  N.:   Estimating  Severity  from  CT  Scans
 of  Tuberculosis  Patients  using  3D  Convolutional  Nets  and  Slice  Selection.   In:
 CLEF2019  Working  Notes.  Volume  2380  of  CEUR  Workshop  Proceedings.,
