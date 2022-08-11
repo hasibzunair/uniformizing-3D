@@ -66,7 +66,7 @@ First, get the data from [here](https://www.imageclef.org/2019/medical/tuberculo
 
 ### Demo
 
-A 🤗 Spaces demo for detecting pneumonia using our [method](https://keras.io/examples/vision/3D_image_classification/) is available [here](https://huggingface.co/spaces/keras-io/3D_CNN_Pneumonia). Demo built by [Faizan Shaikh](https://github.com/faizankshaikh).
+A 🤗 Spaces demo for detecting pneumonia from CT scans using our [method](https://keras.io/examples/vision/3D_image_classification/) is available [here](https://huggingface.co/spaces/keras-io/3D_CNN_Pneumonia). Demo built by [Faizan Shaikh](https://github.com/faizankshaikh).
 
 ### This is an extension of previous work
 
