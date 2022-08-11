@@ -1,7 +1,7 @@
 # Intro
 
 This is official code of MICCAI'2020 PRIME workshop paper: <br>
-Uniformizing Techniques to Process CT scans with 3D CNNs for Tuberculosis Prediction ([Paper](https://link.springer.com/chapter/10.1007%2F978-3-030-59354-4_15), [arXiv](https://arxiv.org/abs/2007.13224))
+*Uniformizing Techniques to Process CT scans with 3D CNNs for Tuberculosis Prediction* ([Paper](https://link.springer.com/chapter/10.1007%2F978-3-030-59354-4_15), [arXiv](https://arxiv.org/abs/2007.13224))
 
 ### Virtual Oral Presentation
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IP6poudyny4/0.jpg)](https://www.youtube.com/watch?v=IP6poudyny4)
