@@ -1,37 +1,6 @@
-# Uniformizing Techniques to Process CT scans with 3D CNNs for Tuberculosis Prediction [[arXiv](https://arxiv.org/abs/2007.13224)]
+# Uniformizing Techniques to Process CT scans with 3D CNNs for Tuberculosis Prediction
 
-This code is part of the supplementary materials for our paper which is published in the 23rd International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) workshop on Predictive Intelligence in Medicine (PRIME).
-
-Published version available [here](https://link.springer.com/chapter/10.1007%2F978-3-030-59354-4_15).
-
-Authors: Hasib Zunair, Aimon Rahman, Nabeel Mohammed, Joseph Paul Cohen
-
-## Abstract
-
-A common approach to medical image analysis on volumet-
-ric data uses deep 2D convolutional neural networks (CNNs). This is
-largely attributed to the challenges imposed by the nature of the 3D
-data: variable volume size, GPU exhaustion during optimization. How-
-ever, dealing with the individual slices independently in 2D CNNs delib-
-erately discards the depth information which results in poor performance
-for the intended task. Therefore, it is important to develop methods that
-not only overcome the heavy memory and computation requirements but
-also leverage the 3D information. To this end, we evaluate a set of vol-
-ume uniformizing methods to address the aforementioned issues. The
-first method involves sampling information evenly from a subset of the
-volume. Another method exploits the full geometry of the 3D volume
-by interpolating over the z-axis. We demonstrate performance improve-
-ments using controlled ablation studies as well as put this approach to the
-test on the ImageCLEF Tuberculosis Severity Assessment 2019 bench-
-mark. We report 73% area under curve (AUC) and binary classification
-accuracy (ACC) of 67.5% on the test set beating all methods which lever-
-aged only image information (without using clinical meta-data) achiev-
-ing 5-th position overall. All codes and models are made available at
-https://github.com/hasibzunair/uniformizing-3D.
-
-
-More information about the dataset and task is avaiable at [URL](https://www.imageclef.org/2019/medical/tuberculosis). 
-
+This is official code of MICCAI'2020 PRIME workshop paper: ([Paper](https://link.springer.com/chapter/10.1007%2F978-3-030-59354-4_15), [arXiv](https://arxiv.org/abs/2007.13224))
 
 ### Virtual Oral Presentation
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IP6poudyny4/0.jpg)](https://www.youtube.com/watch?v=IP6poudyny4)
@@ -90,9 +59,13 @@ You can create the appropriate conda environment by running
 
 ### Directory Structure & Usage
 
-* Run notebook in order
+First, get the data from [here](https://www.imageclef.org/2019/medical/tuberculosis). Then:
+
+* Run notebooks in order
 * `others`: Contains helper codes to preprocess and visualize samples in dataset.
 
+
+A 🤗 Spaces demo built by [Faizan Shaikh](https://github.com/faizankshaikh) is available [here](https://huggingface.co/spaces/keras-io/3D_CNN_Pneumonia).
 
 ### This is an extension of previous work
 
